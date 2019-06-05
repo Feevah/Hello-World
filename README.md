@@ -1,6 +1,9 @@
-# Hello-World
-I am going to see if I can commit these changes
+# My Portfolio Page :sparkles: :sparkles: :sparkles:
 
-why cant i see my files in a certain folder
+## What Should I Include? There Is A Lot to Say.
 
-I think I figured out how to upload files. Now how do i commit changes?
+### It's a work in progress so I'll just put a picture from my recent past here as a Placeholder until I get it up and running.
+
+Format: ![Alt Text](https://images.pexels.com/photos/1592149/pexels-photo-1592149.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=500)
+
+
