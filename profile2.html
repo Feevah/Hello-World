@@ -19,35 +19,108 @@
 
   </head>
 
+<!-- Header -->
 
   <body>
 
       <div class="text-center bkgr vis">
-        <img src="https://images.pexels.com/photos/1592146/pexels-photo-1592146.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="profile-pic">
+       <!--  possible location for profile pic
+        <img src= class="profile-pic"> -->
         <h1>Chris Defever</h1>
-        <h3>Product Builder</h3>
-        <h5>Web Developer</h5>
+        <h3>Web Developer</h3>
+        <h5>Product Builder</h5>
       </div>
     
 
+<!-- ABOUT -->
+  <section id="about">
+    <div class="container flex">
 
-
-      <div class="row text-center" style="margin:20px;">
-                <a class="btn btn-launch" href="https://mydevportfol.io?ref=ghportfolio" target="blank">Pallet Project</a>
+      <div class="header waypoint" data-animation="slide-in-left">ABOUT</div>
+      <div class="header-bar waypoint" data-animation="slide-in-left" data-delay=".5s"></div>
       </div>
 
+      <!-- <div class="flex row label-wrap">
+        <div class="flex row-gt-sm">
+        <div class="flex bullet-wrap ">
+          <div class="hex-wrap waypoint" data-animation="flip-in-x">
+            <div class="hexagon">
+              <i class="mdi mdi-speedometer"></i>
+            </div>
+          </div> -->
+          <div class="waypoint" data-animation="fade-in">
+            <div class="label bold"><h5>Fast</h5></div>
+            <div>Fast load times and lag free interaction, my highest priority.</div>
+          </div>
+        
+
+        <!-- <div class="flex bullet-wrap " >
+          <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".2s">
+            <div class="hexagon">
+              <i class="mdi mdi-cellphone-link"></i>
+            </div>
+          </div> -->
+          <div class="waypoint" data-animation="fade-in" data-delay=".2s">
+            <div class="label bold"><h5>Responsive</h5> </div>
+            <div>My layouts will work on any device, big or small.</div>
+          </div>
+        </div>
+        </div>
+        <!-- <div class="flex row-gt-sm">
+          <div class="flex bullet-wrap " >
+            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".4s">
+              <div class="hexagon">
+                <i class="mdi mdi-lightbulb-outline"></i>
+              </div>
+            </div> -->
+            <div class="waypoint" data-animation="fade-in" data-delay=".4s">
+              <div class="label bold"><h5>Intuitive</h5> </div>
+              <div>Strong preference for easy to use, intuitive UX/UI.</div>
+            </div>
+          </div>
+
+          <!-- <div class="flex bullet-wrap " >
+            <div class="hex-wrap waypoint" data-animation="flip-in-x" data-delay=".6s">
+              <div class="hexagon">
+                <i class="mdi mdi-rocket"></i>
+              </div>
+            </div> -->
+            <div class="waypoint" data-animation="fade-in" data-delay=".6s">
+              <div class="label bold"><h5>Dynamic</h5> </div>
+              <div>Websites don't have to be static, I love making pages come to life.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- profile pic -->
 
 
+      <div class="skills-wrapper flex row-gt-sm">
+        <div>
+          <img src="https://images.pexels.com/photos/1592146/pexels-photo-1592146.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="me">
+          <!-- <div><img class="up-arrow" src="img/up-arrow.png"></div> -->
+          <div class="label bold">Who's this guy?</div>
+          <div>
+            I'm a Full-Stack Developer <a class="highlight" href="https://codeschool.theclubhou.se" target="_blank">@ The Clubhouse</a> in Augusta, GA.
+            <br>
+            I have serious passion for creating intuitive, dynamic user experiences and using the internet to connect the right product with the right person.
+            <br>
+            
+          </div>
+        </div>
 
 
-
-
-
+<!-- Tools of the Trade -->
 
  <section class="good">
   
           <div class="high">
-            <h3>The Tools Of The Trade</h3>
+            <div class="tools">
+              <h3>Tools Of My Trade
+            </h3>
+            </div>
+
           </div>
 
             
@@ -64,16 +137,133 @@
                 <img src="img/techlogos/bootstrap.png" class="techlogo" width="100">
                
             </div>
+
+            <span class="page-link" dest="contact"><h3>Let's make something special.</h3> 
+            </span>
  </section>
 
 
 
 
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- PORTFOLIO -->
+  <!-- <section class="flex" id="portfolio">
+
+    <div class="header waypoint" data-animation="slide-in-right">PROJECTS</div>
+    <div class="header-bar waypoint" data-animation="slide-in-right" data-delay=".3s"></div>
+
+    <div class="filter-wrap waypoint" data-animation="fade-in">
+      <div class="flex row">
+        <div class="filter" data-filter="all">ALL</div>
+        <div class="filter" data-filter=".node">NODE.JS</div>
+        <div class="filter" data-filter=".rails">RUBY/RAILS</div>
+        <div class="filter" data-filter=".js">JAVASCRIPT</div>
+      </div>
+      <div class="float-bar">
+        <div class="flex row">
+          <div class="filter" data-filter="all">ALL</div>
+          <div class="filter" data-filter=".node">NODE.JS</div>
+          <div class="filter" data-filter=".rails">RUBY/RAILS</div>
+          <div class="filter" data-filter=".js">JAVASCRIPT</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="gallery" class="container flex row wrap waypoint">
+      <div class="mix js" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Roambi</div>
+            <span class="highlight">Pure JavaScript</span>
+          </div>
+          <div class="button" id="roambi">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix rails" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Walker Tracker</div>
+            <span class="highlight">Ruby on Rails+ JS</span>
+          </div>
+          <div class="button" id="walker">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix node" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">MY STAND</div>
+            <span class="highlight">Node.js on Sails</span>
+          </div>
+          <div class="button" id="mystand">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix js" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">NEVER SURRENDER</div>
+            <span class="highlight">Pure JavaScript</span>
+          </div>
+          <div class="button" id="never">LEARN MORE</div>
+        </div>
+      </div>
+
+      <div class="mix rails" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">Powur</div>
+            <span class="highlight">Ruby on Rails + Angular</span>
+          </div>
+          <div class="button" id="powur">LEARN MORE</div>
+        </div>
+      </div>
+
+
+      <div class="mix node" data-my-order="1">
+        <div>
+          <div class="card"></div>
+          <div class="text">
+            <div class="bold">The Mall</div>
+            <span class="highlight">Node + React.js</span>
+          </div>
+          <div class="button" id="themall">LEARN MORE</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ -->
+<!-- blog -->
+<section class="blog" >
+
+  
+
+</section>
+
+
+
+
+
+<!-- Contact -->
+
  
       <div class="row row-footer text-center">
         <div class="col">
           <div style="margin:10px;">
-            <h3 style="margin:50px 0 15px">I'm available for work, get in touch</h3>
+            <h3>I'm available for work, get in touch</h3>
           </div>
         </div>
       </div>
@@ -85,16 +275,16 @@
 
     <div class="sizeme">
       
-      <a href="https://github.com/Feevah">
+      <a href="https://github.com/Feevah" target="_blank" >
           <img src="img/techlogos/GitHub.png" class="techlogo" width="100">
       </a>
-      <a href="https://github.com/Feevah">
+      <a href="mailto:cddefever@gmail.com">
           <img src="img/techlogos/gmail.png" class="techlogo" width="100">
       </a>
-      <a href="https://www.linkedin.com/in/chris-defever/">
+      <a href="https://www.linkedin.com/in/chris-defever/" target="_blank">
           <img src="img/techlogos/linkedin.png" class="techlogo" width="100">
       </a>
-      <a href="https://twitter.com/Feevah1">
+      <a href="https://twitter.com/Feevah1" target="_blank">
           <img src="img/techlogos/twitter.png" class="techlogo" width="100">
       </a>
     </div>
@@ -120,7 +310,7 @@
 
 
 <section class="text-center">
-      <div class="drk">
+      <div class="clubhouse">
           <p class="navbar-text navbar-center">The CLUBHOUSE helped me land my first job as a developer! Click the logo to find out more. <a href="https://codeschool.theclubhou.se" target="_blank" class="navbar-link"><img src="https://codeschool.theclubhou.se/wp-content/uploads/2016/11/logo-theclubhouse-web-sm-1.png" class="club"></a>
           </p>
       </div>

@@ -1,9 +1,10 @@
 body {
   background: rgb(116, 153, 116);
   color: black;
+  font-family: 'ZCOOL KuaiLe', cursive;
 }
 
-.drk {
+.clubhouse {
   border-bottom: 5px solid black;
   background-color: rgba(220, 232, 220, 0.6);
   height: 90px;
@@ -38,8 +39,15 @@ body {
   to {background-image: url(img/techlogos/sea2.png);}
 }
 
+h1 {
+  text-decoration: underline;
+}
+
 .vis {
-  color: white;
+  color: rgb(249, 249, 249);
+  font-stretch: expanded;
+  font-family: 'ZCOOL KuaiLe', cursive;
+
 }
 
 
@@ -67,16 +75,29 @@ body {
 	position: auto;
 }
 
-.profile-pic {
+.me {
 	padding: 5px;
     width: 300px;
     border-radius: 40px;
 
 }
 
-#sizeme {
+.page-link {
+  background-color: rgb(116, 153, 116);
+  border: 0px;
+  padding-bottom: 15px;
+}
+
+.tools {text-decoration: underline;}
+
+.sizeme {
  
 
+}
+
+.col{ 
+ margin:15px 0 15px;
+ color: rgb(249, 249, 249);
 }
 
 #contact {
@@ -84,8 +105,7 @@ body {
 }
 
 .good {
-	text-align: center;
-   background-color: rgba(220, 232, 220, 0.6)
+	text-align: center; 
 }
 
 .techlogo {
@@ -99,10 +119,10 @@ body {
 }
 
 .high {
-color: rgb(107, 124, 107);
+color: rgb(249, 249, 249);
 font-stretch: expanded;
 font-family: 'ZCOOL KuaiLe', cursive;
-padding: 25px 0px 5px 0px;
+padding: 17px 0px 8px 0px;
 }
 
 .cntct {
