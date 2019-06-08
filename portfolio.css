@@ -77,40 +77,63 @@ h1 {
 
 /*About*/
 .header {
+color: rgb(249, 249, 249);
+margin-right: auto;
+margin-left: auto;
 display: block;
-padding-top: 20px;
+padding-top: 8px;
+margin-bottom: 10px;
 text-align: center;
 position: relative;
-width: auto;
-
+width: 300px;
+font-size: 28px;
+border-bottom: 5px solid rgb(249, 249, 249);
 }
+
 
 
 /*Qualities*/
 
+.tabler1 {
+
+}
+
 .qualities {
-width: 150px;
+width: 300px;
 }
 
 #qualities1 {
-display: inline-block;
-padding: 0px 5px;
-text-align: center;
-width: 100%;
+margin-right: auto;
+margin-left: auto;
 
 }
 
-#qualities2 {
-display: inline-block;
-padding: 0px 5px;
-text-align: center;
-width: 100%;
 
-}
 
 
 /*About me profile pic
 */
+
+.tabler2 {
+  margin-top:
+    300px;
+  }
+
+#qualities2 {
+margin-right: auto;
+margin-left: auto;
+}
+
+#profilepic {
+  width: 500px;
+  padding-left: 250px;
+}
+#space {
+  width: 300px;
+}
+#whois {
+  width: 500px;
+}
 
 
 
