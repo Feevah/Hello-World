@@ -62,12 +62,6 @@ h1 {
 	position: auto;
 }
 
-.me {
-	padding: 5px;
-    width: 300px;
-    border-radius: 40px;
-
-}
 
 /*What I strive for*/
 
@@ -82,7 +76,7 @@ margin-right: auto;
 margin-left: auto;
 display: block;
 padding-top: 8px;
-margin-bottom: 10px;
+/*margin-bottom: 10px;*/
 text-align: center;
 position: relative;
 width: 300px;
@@ -92,22 +86,6 @@ border-bottom: 5px solid rgb(249, 249, 249);
 
 
 
-/*Qualities*/
-
-.tabler1 {
-
-}
-
-.qualities {
-width: 300px;
-}
-
-#qualities1 {
-margin-right: auto;
-margin-left: auto;
-
-}
-
 
 
 
@@ -115,8 +93,8 @@ margin-left: auto;
 */
 
 .tabler2 {
-  margin-top:
-    300px;
+  text-align: center;
+  /*margin-top: 30px;*/
   }
 
 #qualities2 {
@@ -126,15 +104,56 @@ margin-left: auto;
 
 #profilepic {
   width: 500px;
-  padding-left: 250px;
 }
-#space {
-  width: 300px;
+
+.me {
+  padding: 5px;
+    width: 300px;
+    border-radius: 50%;
 }
+
+.label {
+  font-weight: bold;
+}
+
+.aboutme {
+  margin-left: 20px;
+}
+
+/*Triangle design*/
+
+.triangle {
+  width: 500px;
+    }
+
+#triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid rgb(249, 249, 249);
+      margin: auto;
+    }
+   
+
+/*Qualities*/
+
 #whois {
   width: 500px;
 }
 
+.tabler1 {
+text-align: center;
+}
+
+.qualities {
+width: 300px;
+}
+
+#qualities1 {
+float: right;
+
+}
 
 
 
@@ -183,6 +202,7 @@ padding: 17px 0px 8px 0px;
 .cntct {
   text-align: center;
 }
+
 
 /*Fill in Boxes*/
 
