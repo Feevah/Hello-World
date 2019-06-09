@@ -151,8 +151,13 @@ width: 300px;
 }
 
 #qualities1 {
-float: right;
+float: left;
 
+}
+
+.bold {
+  text-decoration: underline;
+  color: rgb(249, 249, 249): 
 }
 
 
@@ -190,6 +195,11 @@ padding: 17px 0px 8px 0px;
   border: 0px;
   padding-bottom: 15px;
 }
+
+/*My Projects*/
+
+
+
 
 /*Contact me icons*/
 
